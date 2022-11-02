@@ -1,3 +1,6 @@
+@import './css/et-line.css';
+@import './css/font-awesome.css';
+
 body {
     margin: 0;
     padding: 0;
@@ -516,7 +519,6 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -818,11 +820,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.avif");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.avif");
 }
 
 @media (max-width: 1024px) {
