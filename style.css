@@ -479,7 +479,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 40px!important;
 }
 
 .icon-lg {
@@ -784,7 +784,6 @@ h4 {
     background: #F3976C;
     color: #FFFFFF!important;
 }
-
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     color: #FFFFFF!important;
@@ -850,7 +849,7 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-device-width 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
